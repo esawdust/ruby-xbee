@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{ruby-xbee}
-  s.version = "0.0.5"
+  s.version = "0.0.6"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Mike Ashmore"]
+  s.authors = ["Mike Ashmore", "Landon Cox"]
   s.autorequire = %q{ruby_xbee}
   s.date = %q{2009-04-30}
-  s.email = %q{mike@motomike.net}
+  s.email = %q{landon@360vl.com}
   s.executables = ["apicontrol.rb", "ruby-xbee.rb", "xbeeconfigure.rb", "xbeedio.rb", "xbeeinfo.rb", "xbeelisten.rb", "xbeesend.rb"]
   s.extra_rdoc_files = [
     "LICENSE",
@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
-  s.summary = %q{Ripped ruby-xbee-1.0 from http://sawdust.see-do.org/ruby-xbee/releases/ruby-xbee-1.0/ruby-xbee-1.0.tar.gz on 20 April 2009; heavy modifications underway to support V2 XBee Pro 900MHz modules and generally  clean up code}
+  s.summary = %q{Forked from Mike Ashmore who forked it from me to take a look and possibly extend it}
   s.test_files = [
     "test/ruby_xbee_test.rb",
     "test/test_helper.rb"
